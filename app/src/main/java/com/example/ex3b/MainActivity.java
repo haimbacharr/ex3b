@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setContentView(R.layout.ex3b);
         getSupportActionBar().setTitle("Main Activity"); // Set the name of the new activity to "Register"
         tv1 = (TextView) findViewById(R.id.textView);
         registerBtn = (Button) findViewById(R.id.buttonReg);
