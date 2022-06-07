@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
 
+        <!-- Start  -> This is the second activity , this is the only change in the manifest-->
         <activity
             android:name=".Register"
             android:exported="true">
@@ -28,7 +29,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
+        <!-- End -> This is the second activity , this is the only change in the manifest-->
     </application>
 
 </manifest>
